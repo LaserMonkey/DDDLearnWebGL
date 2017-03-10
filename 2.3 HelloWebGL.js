@@ -8,7 +8,7 @@ let webglDemo = {
 			try {
 				glcxt = canvas.getContext(canvasType[i])
 			} catch(e) {
-
+				console.log(e)
 			}
 			if(glcxt) {
 				break
