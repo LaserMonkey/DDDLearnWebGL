@@ -14,7 +14,7 @@ let webglDemo = {
 				break
 			}
 		}
-		glcxt.clearColor(0.5, 0.5, 0.5, 1)
+		glcxt.clearColor(0, 0, 0, 1)
 		glcxt.clear(glcxt.COLOR_BUFFER_BIT)
 	}
 }
